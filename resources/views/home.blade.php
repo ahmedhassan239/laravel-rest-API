@@ -13,12 +13,13 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    <div id="app">
+                    
+                    You are Loged in
+                   {{--  <div id="app">
                         <passport-clients></passport-clients><br>
                         <passport-authorized-clients></passport-authorized-clients><br>
                         <passport-personal-access-tokens></passport-personal-access-tokens>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
